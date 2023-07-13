@@ -20,8 +20,5 @@ phases:
       - docker push $AWS_ACCOUNT_ID.dkr.ecr.$AWS_DEFAULT_REGION.amazonaws.com/$IMAGE_REPO_NAME:$IMAGE_TAG
 
 artifacts:
-  type: S3
   files:
     - imagedefinitions.json
-  name: MyBuildArtifact
-  bucket_name: codepipeline-us-east-1-116184233425
