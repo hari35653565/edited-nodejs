@@ -1,0 +1,6 @@
+[
+  {
+    "name": "node",
+    "imageUri": "951200337496.dkr.ecr.us-east-1.amazonaws.com/node-js@sha256:ff5513098331f3a4b9fabe9004bd20f095d222e2cba241363a77af1004fc137e"
+  }
+]
